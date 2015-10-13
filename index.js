@@ -95,4 +95,4 @@ Relay.injectNetworkLayer(
 
 ReactDOM.render(<Relay.RootContainer
   Component={TopItems}
-  route={new HackerNewsRoute()} />, document.getElementById('container'););
+  route={new HackerNewsRoute()} />, document.getElementById('container'));
